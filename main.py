@@ -49,7 +49,7 @@ def main():
     print('Total Cost:')
     item1.print_item_cost()
     item2.print_item_cost()
-    print('Total: ${}'.format(item1.total_cost() + item2.total_cost()))
+    print('Total: ${:.2f}'.format(item1.total_cost() + item2.total_cost()))
 
 
 

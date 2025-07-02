@@ -12,7 +12,7 @@ class ItemToPurchase:
 		return self.item_price * self.item_quantity
 
 	def print_item_cost(self):
-		print('{} {} @ ${:.2f} = ${}'.format(
+		print('{} {} @ ${:.2f} = ${:.2f}'.format(
 			self.item_name, 
 			self.item_quantity, 
 			self.item_price, 
